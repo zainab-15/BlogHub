@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Blog - BlogHub</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Firebase App (the core Firebase SDK) -->
+  <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+  <!-- Firebase Firestore -->
+  <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore-compat.js"></script>
+  <!-- Firebase Auth -->
+  <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-auth-compat.js"></script>
+  <!-- Your Firebase config -->
+  <script src="firebase-config.js"></script>
+  <!-- Main script -->
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <!-- Logo (you can make it clickable if desired) -->
+      <h1 class="logo" id="home-icon">BlogHub</h1>
+      <nav>
+        <ul>
+          <!-- Removed Home, About, and Contact links -->
+          <li><a href="signup.html" id="signup-link">Sign Up</a></li>
+          <li><a href="login.html" id="login-link">Login</a></li>
+          <!-- Saved Posts link; shown only when logged in -->
+          <li><a href="#" id="saved-link" style="display: none;">Saved Posts</a></li>
+          <!-- Sign Out link; initially hidden -->
+          <li><a href="#" id="signout-link" style="display: none;">Sign Out</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    <!-- New Post Form container; injected when the user clicks the + button -->
+    <div id="new-post-container"></div>
+    
+    <!-- Blog List Section -->
+    <section id="blog-list" class="active-section">
+      <h2 class="section-title">Latest Posts</h2>
+      <div class="blog-grid" id="blog-posts-container">
+        <!-- Blog posts will be dynamically inserted here -->
+      </div>
+    </section>
+
+    <!-- Saved Posts Section -->
+    <section id="saved-posts" class="hidden-section">
+      <h2 class="section-title">Bookmarked Posts</h2>
+      <div class="blog-grid" id="saved-posts-container">
+        <!-- Bookmarked posts will be rendered here -->
+      </div>
+    </section>
+    
+    <!-- Single Blog Post View -->
+    <section id="blog-post" class="hidden-section">
+      <button id="back-button" class="back-button">← Back to Posts</button>
+      <article id="post-content">
+        <!-- Single post content will be shown here -->
+      </article>
+    </section>
+  </main>
+
+  <!-- Floating + button (Add Post) -->
+  <a href="#" id="floating-add-btn">+</a>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 BlogHub. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
