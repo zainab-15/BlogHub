@@ -8,20 +8,20 @@ BlogHub is a fully functional full-stack blogging platform developed using HTML,
 
 ## Features
 •	 Full-Stack Functionality: Combines frontend UI with a real-time Firebase backend.
-	•	Real-Time Updates: Posts update instantly using Firestore listeners.
-	•	User Authentication: Secure sign-up, login, and logout with Firebase Auth.
-	•	Post Management: Create, update, and delete blog posts.
-	•	Engage with Blogs: Like, bookmark, and comment on posts.
-	• Responsive Design: Optimized for all screen sizes and devices.
-	•	Production-Ready: Already live with 50+ blog posts—ideal for real-world use or showcasing.
+•	Real-Time Updates: Posts update instantly using Firestore listeners.
+•	User Authentication: Secure sign-up, login, and logout with Firebase Auth.
+•	Post Management: Create, update, and delete blog posts.
+•	Engage with Blogs: Like, bookmark, and comment on posts.
+•        Responsive Design: Optimized for all screen sizes and devices.
+•	Production-Ready: Already live with 50+ blog posts—ideal for real-world use or showcasing.
 
 ## Tech Stack
 •	Frontend: HTML5, CSS
-	•	Backend: Firebase (Authentication + Firestore Database)
-	•	Firebase SDK (v9.22.0 compat):
-	•	firebase-app-compat.js
-	•	firebase-auth-compat.js
-	•	firebase-firestore-compat.js
+•	Backend: Firebase (Authentication + Firestore Database)
+•	Firebase SDK (v9.22.0 compat):
+•	firebase-app-compat.js
+•	firebase-auth-compat.js
+•	firebase-firestore-compat.js
 
 ## Getting Started
 	1.	Clone the Repository:
