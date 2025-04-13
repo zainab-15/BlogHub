@@ -23,11 +23,13 @@ BlogHub is a fully functional full-stack blogging platform developed using HTML,
 
 ## Tech Stack
 •	Frontend: HTML5, CSS
+
 •	Backend: Firebase (Authentication + Firestore Database)
-•	Firebase SDK (v9.22.0 compat):
+
+•	Firebase SDK (v9.22.0 compat)
+
 •	firebase-app-compat.js
-•	firebase-auth-compat.js
-•	firebase-firestore-compat.js
+
 
 ## Getting Started
 	1.	Clone the Repository:
